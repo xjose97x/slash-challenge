@@ -1,6 +1,6 @@
 # Challenge
 
-The challenge is to implemented limited-scope OpenAPI schema validator.
+The challenge is to implement a limited-scope OpenAPI schema validator.
 
 - The possible types of the schema are defined in the [JSONObject](./src/types.ts).
 - The test cases are in [./src/tests/cases](./src/tests/cases) directory.
