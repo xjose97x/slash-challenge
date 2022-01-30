@@ -9,6 +9,6 @@ The challenge is to implement a limited-scope OpenAPI schema validator.
 - Write additional test-cases in [user-test-cases.ts](./src/tests/cases/user-test-cases.ts) to add additional tests not covered (this is optional if you have extra time)
 
 
-# Commnents
+# Comments
 - Test case #9 (`Invalidates mismatch nested array`) fails but it has a valid schema.
 - Test case #11 (`Invalidate cart with bad enums`) passes but it has an invalid schema. The property `size` has as value `XL`, however the only valid values for `size` are `'xs', 's', 'm', 'l'`.
